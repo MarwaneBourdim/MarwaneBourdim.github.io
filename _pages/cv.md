@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Need to add my CV here...
+You can download my CV [here](/files/pdf/MarwaneBourdimCV.pdf).
