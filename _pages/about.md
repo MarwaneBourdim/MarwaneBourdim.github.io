@@ -10,7 +10,11 @@ redirect_from:
 
 Welcome! I am currently a MSc student of Mathematics and Machine Learning at the Université de Paris. 
 
-I'm interested in stochastic processes, scientific computing and more generally in the application of mathematical and computational tools to systems biology and synthetic biology. I also have a keen interest for autonomous learning and AI. 
+I'm globally interested by the application of mathematical and computational tools to biology. I love bold new ideas like the use of Optimal Transport to fill in the gap of single-cell sequencing data ([Schiebinger and al.](https://www.cell.com/cell/pdf/S0092-8674(19)30039-X.pdf)), or random matrix theory to denoise it ([Aparico and al.](https://www.sciencedirect.com/science/article/pii/S2666389920300404#!)). 
+
+One of my main interests is Machine Learning especially applied to drug discovery/drug repurposing, protein design and genomics. I am particularly attracted by Geometric Deep Learning ([Bronstein and al.](https://arxiv.org/abs/2104.13478)) and heuristics that take advantage of the symmetries of the given systems to be able to produce efficient neural network models from them. 
+
+I am also very enthusiastic about the attempts to mathematize biology that can be found in Rashevsky, Rosen or Baez. 
 
 I'm currently looking for an internship, if you think I'll be a good fit don't hesitate to contact me at firstname.lastname@etu.u-paris.fr or through LinkedIn/Twitter! 
 
