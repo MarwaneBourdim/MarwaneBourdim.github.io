@@ -16,7 +16,7 @@ One of my main interests is Machine Learning especially applied to drug discover
 
 I am also very enthusiastic about the attempts to mathematize biology that can be found in Rashevsky, Rosen or Baez. 
 
-I'm currently looking for an internship, if you think I'll be a good fit don't hesitate to contact me at firstname.lastname@etu.u-paris.fr or through LinkedIn/Twitter! 
+I am glad to announce that I am going to be an intern at EMBL-EBI in the [Cortes-Ciriano group](https://www.ebi.ac.uk/research-beta/cortes-ciriano/) to work on AI applied to Cancer Genomics thanks to the EMBL-EBI French Embassy fellowship ! 
 
 Education
 ======
