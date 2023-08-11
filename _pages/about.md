@@ -16,7 +16,7 @@ My goal is to use math and computer science for the greater good, learn more abo
 
 Apart from math, I'm passionate about philosophy, drawing and teaching.
 
-Check out my terminal-like interactive CV [here](https://marwanebourdim.github.io/terminal/)!
+Check out my terminal-like **interactive CV** [here](https://marwanebourdim.github.io/terminal/)!
 
 Education
 ======
