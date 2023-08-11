@@ -8,15 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am currently a MSc student of Mathematics and Machine Learning at the Université de Paris. 
+Hi ! My name is Marwane Bourdim. 
 
-I'm globally interested in the applications of mathematical and computational tools to biology. I love bold new ideas like the use of Optimal Transport to fill in the gap of single-cell sequencing data ([Schiebinger and al.](https://www.cell.com/cell/pdf/S0092-8674(19)30039-X.pdf)), or random matrix theory to denoise it ([Aparicio and al.](https://www.sciencedirect.com/science/article/pii/S2666389920300404#!)). 
+I am a recent math graduate from Université Paris-Cité and Sorbonne Université and I am currently on the job market for data scientist and quantitative analyst positions. I am also interested in phd projects in machine Learning and mathematics, especially applied to biology, personalised medecine,
+linguistics and interspecies communication (a soft spot of mine is the [CETI project](https://www.projectceti.org/))!
+My goal is to use math and computer science for the greater good, learn more about ourselves and have fun :)
 
-One of my main interests is Machine Learning especially applied to drug discovery/drug repurposing, protein design and genomics. I am particularly attracted by Geometric Deep Learning ([Bronstein and al.](https://arxiv.org/abs/2104.13478)) and heuristics that take advantage of the symmetries of the data to be able to produce efficient neural network models. 
-
-I am also very enthusiastic about the attempts to mathematize biology that can be found in Rashevsky, Rosen or Baez. 
-
-I am glad to announce that I am going to be an intern at EMBL-EBI in the [Cortes-Ciriano group](https://www.ebi.ac.uk/research-beta/cortes-ciriano/) to work on AI applied to Cancer Genomics thanks to the EMBL-EBI French Embassy fellowship ! 
+Apart from math, I'm passionate about philosophy, drawing and teaching.
 
 Education
 ======
