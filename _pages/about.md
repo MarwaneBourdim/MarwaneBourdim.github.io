@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About"
-excerpt: "Marwane Bourdim"
+excerpt: "About"
 author_profile: true
 redirect_from: 
   - /about/
