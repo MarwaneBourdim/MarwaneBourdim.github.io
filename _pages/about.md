@@ -12,7 +12,7 @@ Hi ! My name is Marwane Bourdim.
 
 I am a recent math graduate from Université Paris-Cité and Sorbonne Université and **I am currently on the job market for data scientist and quantitative analyst positions**. **I am also interested in phd projects in machine Learning and mathematics**, especially applied to biology, personalised medecine,
 linguistics and interspecies communication (a soft spot of mine is the [CETI project](https://www.projectceti.org/))!
-My goal is to use math and computer science for the greater good, learn more about ourselves and have fun :)
+My goal is to use math and computer science for the greater good, learn more about the world and have fun :)
 
 Apart from math, I'm passionate about philosophy, drawing and teaching.
 
