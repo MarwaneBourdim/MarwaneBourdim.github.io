@@ -35,7 +35,7 @@ Work experience
 *[École alsacienne](https://www.ecole-alsacienne.org/), Paris, France \| February 2023 - June 2023*
   * I had four classes to teach, two 4èmes (~ Year 8) and two 2ndes (~ Year 10). This gave me the opportunity to improve my communication skills (especially public speaking) through a very rewarding experience.  
 * **Research intern**
-*Supervised by Isidro Cortés-Ciriano, at [Cancer Genomics Lab]([https://team.inria.fr/simbiotx/](https://www.ebi.ac.uk/research/cortes-ciriano/)), EMBL-EBI, Cambridge, United Kingdom \| February 2022 - January 2023*
+*Supervised by Isidro Cortés-Ciriano, at [Cancer Genomics Lab](https://www.ebi.ac.uk/research/cortes-ciriano/), EMBL-EBI, Cambridge, United Kingdom \| February 2022 - January 2023*
   * Developed two new SOTA methylation deconvolution algorithms by using supervised and unsupervised methods and implemented them in Python in a self-contained Command-Line Interface software. 
 * **Research intern**
 *Supervised by Dirk Drasdo and Jules Dichamp, ar [SIMBIOTX lab](https://team.inria.fr/simbiotx/), INRIA Paris-Saclay, Paris, France \| April 2021 - September 2021*
