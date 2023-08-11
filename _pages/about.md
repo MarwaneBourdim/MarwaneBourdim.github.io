@@ -27,7 +27,7 @@ Education
 * **Bachelor's degree in Pure Mathematics**  
 *Université de Paris-Cité, France | 2018-2019*
 * **Classe préparatoire aux grandes écoles MPSI-MP**  
-*Lycée Jacques Decour, France | 2016 ~ 2018*
+*Lycée Jacques Decour, France | 2016-2018*
 
 Work experience
 ======
