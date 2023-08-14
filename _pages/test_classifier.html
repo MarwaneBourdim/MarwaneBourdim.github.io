@@ -1,7 +1,11 @@
+---
+title: 1. Single file
+layout: page
+---
+
 <input id="photo" type="file">
 <div id="results"></div>
 <script>
-import { client } from "@gradio/client";
   async function loaded(reader) {
     const response = await fetch('https://generatelakatos-fastai-fish-classifier.hf.space/', {
       method: "POST", body: JSON.stringify({ "data": [reader.result] }),
