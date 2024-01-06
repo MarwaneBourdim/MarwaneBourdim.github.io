@@ -33,10 +33,10 @@ Work experience
 ======
 * **Mathematics Teacher for middle schoolers and high schoolers**  
 *[École alsacienne](https://www.ecole-alsacienne.org/), Paris, France \| February 2023 - June 2023*
-  * During my time teaching at l'Ecole Alsacienne, a prestigious private school, I taught mathematics to 8th and 10th-grade students. This experience proved rewarding, enhancing my communication and public speaking skills.
+  * During my time teaching at l'Ecole Alsacienne, a prestigious private school, I taught mathematics to 8th and 10th-grade (4ème and 2ndes) students. This experience proved rewarding, enhancing my communication and public speaking skills.
 * **Research intern**  
 *Supervised by Isidro Cortés-Ciriano, at [Cancer Genomics Lab](https://www.ebi.ac.uk/research/cortes-ciriano/), EMBL-EBI, Cambridge, United Kingdom \| February 2022 - January 2023*
-  * Developed two new SOTA methylation deconvolution algorithms by using supervised and unsupervised methods and implemented them in Python in a self-contained user-friendly Command-Line Interface suite. 
+  * Developed two new SOTA methylation deconvolution algorithms by using supervised and unsupervised methods and implemented them in Python in a self-contained user-friendly command-line interface. 
 * **Research intern**  
 *Supervised by Dirk Drasdo and Jules Dichamp, ar [SIMBIOTX lab](https://team.inria.fr/simbiotx/), INRIA Paris-Saclay, Paris, France \| April 2021 - September 2021*
   * Applied and extended Master equations cellular proliferation models to the study of epidemic spread. Used the Gillespie algorithm for for the various simulations (implemented in Python). 
