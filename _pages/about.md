@@ -10,8 +10,8 @@ redirect_from:
 
 Hi ! My name is Marwane Bourdim. 
 
-I am a recent math graduate from Université Paris-Cité and Sorbonne Université and **I am currently on the job market looking for for data scientist and quantitative analyst positions**. **I am also interested in phd projects in machine learning and mathematics**, especially applied to biology, personalised medecine,
-and around NLP (a soft spot of mine is the [CETI project](https://www.projectceti.org/))!
+I am a recent math graduate from two Master's degrees resp. from Université Paris-Cité and Sorbonne Université and **I am currently on the job market looking for data scientist and quantitative analyst positions**. **I am also interested in phd projects in machine learning and mathematics**, especially applied to biology, personalised medecine,
+and NLP (a soft spot of mine is the [CETI project](https://www.projectceti.org/))!
 My goal is to use math and computer science for the greater good, learn more about the world, and have fun doing it :)
 
 Apart from math, I'm passionate about philosophy, drawing and teaching.
