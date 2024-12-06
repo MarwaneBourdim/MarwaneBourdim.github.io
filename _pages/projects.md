@@ -24,8 +24,8 @@ author_profile: true
     ],
   };
 
-  const width = 2000;
-  const height = 1000;
+  const width = 900;
+  const height = 450;
 
   const svg = d3.select("#graph")
     .append("svg")
@@ -49,7 +49,7 @@ author_profile: true
     .selectAll("circle")
     .data(data.nodes)
     .join("circle")
-    .attr("r", 5)
+    .attr("r", 10)
     .attr("fill", "steelblue")
     .call(d3.drag()
       .on("start", dragstarted)
