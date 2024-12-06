@@ -107,4 +107,3 @@ author_profile: true
         d.fy = null;
     }
 </script>
-cx="579.2865822881386" cy="262.70333979833316"></circle><text class="graph-label" x="579.2865822881386" y="262.70333979833316" dx="10" dy="1" fill="#df40a1"><a href="fragments/" fill="#df40a1" x="579.2865822881386" y="262.70333979833316">journal of fragments</a></text></g><g cx="554.8213979346654" cy="183.36781004230698" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><circle fill="#df40a1" stroke-width="1.5" r="5" cx="554.8213979346654" cy="183.36781004230698"></circle><text class="graph-label" x="554.8213979346654" y="183.36781004230698" dx="10" dy="1" fill="#df40a1"><a href="aliene/" fill="#df40a1" x="554.8213979346654" y="183.36781004230698">aliene</a></text></g></g></svg></div>
