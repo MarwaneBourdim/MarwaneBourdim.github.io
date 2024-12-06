@@ -12,12 +12,12 @@ author_profile: true
 
   const data = {
     nodes: [
-      { id: "DeMethify", group: 1, url: "/demethify" },
-      { id: "Covid-19 ABM", group: 2, url: "/covid-19-abm" },
-      { id: "Lineage barcode library", group: 3, url: "/lineage-barcode-library" },
-      { id: "Ovarian cancer drug resistance", group: 4, url: "/ovarian-cancer-drug-resistance" },
-      { id: "Multi-modal barcoding", group: 5, url: "/multi-modal-barcoding" },
-      { id: "Bioethics", group: 6, url: "/bioethics" },
+      { id: "DeMethify", group: 1, url: "/projects/demethify" },
+      { id: "Covid-19 ABM", group: 2, url: "/projects/covid-19-abm" },
+      { id: "Lineage barcode library", group: 3, url: "/projects/lineage-barcode-library" },
+      { id: "Ovarian cancer drug resistance", group: 4, url: "/projects/ovarian-cancer-drug-resistance" },
+      { id: "Multi-modal barcoding", group: 5, url: "/projects/multi-modal-barcoding" },
+      { id: "Bioethics", group: 6, url: "/projects/bioethics" },
     ],
     links: [
       { source: "DeMethify", target: "Covid-19 ABM" },
