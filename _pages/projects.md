@@ -24,8 +24,8 @@ author_profile: true
     ],
   };
 
-  const width = 1000;
-  const height = 550;
+  const width = 2000;
+  const height = 1000;
 
   const svg = d3.select("#graph")
     .append("svg")
