@@ -77,7 +77,12 @@ author_profile: true
     .attr("dx", 10)
     .attr("dy", ".35em")
     .text(d => d.id)
-    .on("click", d => window.location = d.url);
+    .on("click", (event, d) => {
+      if (d.url) {
+        window.location = d.url;
+      } else {
+        console.error("No URL defined for this node:", d);
+      }
 
   function ticked() {
     link
