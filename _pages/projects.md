@@ -24,8 +24,8 @@ author_profile: true
     ],
   };
 
-  const width = 1200; // Wider canvas
-  const height = 800; // Taller canvas
+  const width = 1000;
+  const height = 550;
 
   const svg = d3.select("#graph")
     .append("svg")
@@ -33,8 +33,8 @@ author_profile: true
     .attr("height", height);
 
   const simulation = d3.forceSimulation(data.nodes)
-    .force("link", d3.forceLink(data.links).id(d => d.id).distance(200)) // Increased link distance
-    .force("charge", d3.forceManyBody().strength(-400)) // Increased repulsion
+    .force("link", d3.forceLink(data.links).id(d => d.id))
+    .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2))
     .on("tick", ticked);
 
@@ -49,7 +49,7 @@ author_profile: true
     .selectAll("circle")
     .data(data.nodes)
     .join("circle")
-    .attr("r", 10) // Larger nodes
+    .attr("r", 5)
     .attr("fill", "steelblue")
     .call(d3.drag()
       .on("start", dragstarted)
@@ -60,10 +60,9 @@ author_profile: true
     .selectAll("text")
     .data(data.nodes)
     .join("text")
-    .attr("dx", 15) // Adjusted label position
+    .attr("dx", 10)
     .attr("dy", ".35em")
     .text(d => d.id)
-    .style("font-size", "14px")
     .on("click", d => window.location = d.url);
 
   function ticked() {
