@@ -38,7 +38,7 @@ author_profile: true
     ],
   };
 
-  const width = 700;
+  const width = 900;
   const height = 450;
 
   const svg = d3.select("#graph")
