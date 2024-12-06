@@ -150,7 +150,7 @@ author_profile: true
     .attr("dx", 10)
     .attr("dy", ".35em")
     .text(d => d.id)
-    .on("click", (event, d) => window.location = d.url);
+    .on("click", d => window.location = d.url);
 
   function ticked() {
     link
