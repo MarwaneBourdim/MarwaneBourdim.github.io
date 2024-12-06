@@ -7,6 +7,8 @@ permalink: /projects/demethify
 
 DeMethify is a suite of methylation deconvolution algorithms that mainly revolves around adapted non-negative matrix factorization, offering a versatile toolbox for heterogeneous methylation data.
 
+You can find it on [Github](https://github.com/cortes-ciriano-lab/DeMethify)!
+
 Plenty of different uses cases:
 ![image](https://github.com/user-attachments/assets/dabb54e1-7cb8-4a2f-90af-652ca456f7d0)
 
