@@ -20,7 +20,7 @@ Education
 ======  
 - **Master's degree in Mathematics, Statistics, and Machine Learning**  
   *Université Paris-Cité, France | 2021–2022*  
-- **Master's degree in Mathematical Modelling (Biology and Stochastic Modelling Track)**  
+- **Master's degree in Mathematical Modelling (Biology and Medical science application track)**  
   *Sorbonne Université, France | 2020–2021*  
 - **Bachelor's degree in Pure Mathematics**  
   *Université Paris-Cité, France | 2018–2019*  
@@ -36,7 +36,7 @@ Work and Academic Experience
   - Collaborate with diverse research teams to design machine learning tools that integrate and analyse multi-modal data.    
 
 - **Mathematics Teacher for Middle Schoolers and High Schoolers**  
-  *[École Alsacienne](https://www.ecole-alsacienne.org/), Paris, France | February 2023 – June 2023*  
+  *[École Alsacienne](https://www.ecole-alsacienne.org/), Paris, France | February 2023 – August 2023*  
   - Taught mathematics to 8th and 10th-grade (4ème and 2nde) students at a prestigious private school.  
   - Developed communication and public speaking skills through daily interactions and outreach initiatives.  
 
