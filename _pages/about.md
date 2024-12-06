@@ -10,13 +10,11 @@ redirect_from:
 
 Hi! My name is Marwane Bourdim.  
 
-I’m a Data Scientist at the [Institute of Cancer Research (ICR)](https://www.icr.ac.uk/our-research/about-our-research/data-science-at-the-icr). I work with researchers to build machine learning tools that make sense of complex cancer data. My goal is to help make biology more predictive and engineerable, especially in personalised medicine and longevity research.  
+I’m a Data Scientist at the [Institute of Cancer Research (ICR)](https://www.icr.ac.uk/our-research/about-our-research/data-science-at-the-icr). I work with researchers to build machine learning tools that make sense of different kinds of cancer data. My goal is to help make biology more predictive and engineerable, especially in personalised medicine and longevity research.  
 
 Outside of work, I’m into philosophy and social justice. I believe maths and science should serve people.  
 
 Check out my terminal-like **interactive CV** [here](https://marwanebourdim.github.io/terminal/)!  
-
-======  
 
 Education  
 ======  
