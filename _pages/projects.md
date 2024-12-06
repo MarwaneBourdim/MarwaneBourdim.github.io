@@ -11,46 +11,48 @@ author_profile: true
 <script type="module">
   import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-  // Updated project data
   const data = {
     nodes: [
-      { id: "DeMethify", url: "/demethify", group: 1 },
-      { id: "Covid-19 ABM", url: "/covid-19-abm", group: 1 },
-      { id: "Ovarian Cancer Drug Resistance", url: "/ovarian-cancer-drug-resistance", group: 2 },
-      { id: "Lineage Barcode Library", url: "/lineage-barcode-library", group: 2 },
-      { id: "Multi-modal Barcoding", url: "/multi-modal-barcoding", group: 3 },
-      { id: "Bioethics", url: "/bioethics", group: 3 },
+      { id: "DeMethify", group: 1, url: "/demethify" },
+      { id: "Covid-19 ABM", group: 2, url: "/covid-19-abm" },
+      { id: "Ovarian Cancer Drug Resistance", group: 3, url: "/ovarian-cancer" },
+      { id: "Lineage Barcode Library", group: 4, url: "/lineage-barcode" },
+      { id: "Multi-modal Barcoding", group: 5, url: "/multi-modal-barcoding" },
+      { id: "Bioethics", group: 6, url: "/bioethics" },
     ],
-    links: [], // Placeholder; we'll add full connections dynamically below.
+    links: [
+      { source: "DeMethify", target: "Covid-19 ABM" },
+      { source: "DeMethify", target: "Ovarian Cancer Drug Resistance" },
+      { source: "DeMethify", target: "Lineage Barcode Library" },
+      { source: "DeMethify", target: "Multi-modal Barcoding" },
+      { source: "DeMethify", target: "Bioethics" },
+      { source: "Covid-19 ABM", target: "Ovarian Cancer Drug Resistance" },
+      { source: "Covid-19 ABM", target: "Lineage Barcode Library" },
+      { source: "Covid-19 ABM", target: "Multi-modal Barcoding" },
+      { source: "Covid-19 ABM", target: "Bioethics" },
+      { source: "Ovarian Cancer Drug Resistance", target: "Lineage Barcode Library" },
+      { source: "Ovarian Cancer Drug Resistance", target: "Multi-modal Barcoding" },
+      { source: "Ovarian Cancer Drug Resistance", target: "Bioethics" },
+      { source: "Lineage Barcode Library", target: "Multi-modal Barcoding" },
+      { source: "Lineage Barcode Library", target: "Bioethics" },
+      { source: "Multi-modal Barcoding", target: "Bioethics" },
+    ],
   };
 
-  // Create fully connected graph
-  data.nodes.forEach((nodeA, i) => {
-    data.nodes.slice(i + 1).forEach(nodeB => {
-      data.links.push({ source: nodeA.id, target: nodeB.id });
-    });
-  });
+  const width = 1200;
+  const height = 800;
 
-  const width = 1200; // Increased canvas width
-  const height = 800; // Increased canvas height
-  const nodeRadius = 20; // Larger node size
-  const chargeStrength = -1000; // Increased spacing between nodes
-
-  // Create SVG container
   const svg = d3.select("#graph")
     .append("svg")
     .attr("width", width)
-    .attr("height", height)
-    .attr("viewBox", [0, 0, width, height]);
+    .attr("height", height);
 
-  // Simulation setup
   const simulation = d3.forceSimulation(data.nodes)
     .force("link", d3.forceLink(data.links).id(d => d.id).distance(150))
-    .force("charge", d3.forceManyBody().strength(chargeStrength))
+    .force("charge", d3.forceManyBody().strength(-500))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .on("tick", ticked);
 
-  // Add links
   const link = svg.append("g")
     .selectAll("line")
     .data(data.links)
@@ -58,31 +60,28 @@ author_profile: true
     .attr("stroke", "#aaa")
     .attr("stroke-width", 2);
 
-  // Add nodes
   const node = svg.append("g")
     .selectAll("circle")
     .data(data.nodes)
     .join("circle")
-    .attr("r", nodeRadius)
-    .attr("fill", d => d3.schemeCategory10[d.group])
+    .attr("r", 15) // Increased node size
+    .attr("fill", (d, i) => d3.schemeTableau10[i % 10])
     .call(d3.drag()
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended));
 
-  // Add labels
   const labels = svg.append("g")
     .selectAll("text")
     .data(data.nodes)
     .join("text")
-    .attr("dx", 25) // Offset for better readability
-    .attr("dy", 5)
+    .attr("dx", 20)
+    .attr("dy", ".35em")
     .text(d => d.id)
-    .attr("font-size", "14px")
-    .attr("fill", "#333")
-    .on("click", d => window.location = d.url);
+    .style("font-size", "14px")
+    .style("fill", "#333")
+    .style("pointer-events", "none");
 
-  // Ticked function to update positions
   function ticked() {
     link
       .attr("x1", d => d.source.x)
@@ -99,7 +98,6 @@ author_profile: true
       .attr("y", d => d.y);
   }
 
-  // Drag event functions
   function dragstarted(event) {
     if (!event.active) simulation.alphaTarget(0.3).restart();
     event.subject.fx = event.subject.x;
@@ -117,3 +115,4 @@ author_profile: true
     event.subject.fy = null;
   }
 </script>
+
