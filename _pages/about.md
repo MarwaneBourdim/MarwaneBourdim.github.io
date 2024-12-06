@@ -33,7 +33,7 @@ Work and Academic Experience
 
 - **Data Scientist**  
   *[Institute of Cancer Research (ICR)](https://www.icr.ac.uk/our-research/about-our-research/data-science-at-the-icr), London, United Kingdom | March 2024 – Present*  
-  - As part of the Data Science Team, I collaborate with research groups across the institute to provide data analysis expertise and co-develop research projects. This role involves designing and implementing machine learning tools for analysing diverse omics data and integrating multi-modal datasets   
+  - I collaborate with research groups across the institute to provide data analysis expertise and co-develop research projects. This role involves designing and implementing machine learning tools for analysing diverse omics data and integrating multi-modal datasets   
 
 - **Mathematics Teacher for Middle Schoolers and High Schoolers**  
   *[École Alsacienne](https://www.ecole-alsacienne.org/), Paris, France | February 2023 – August 2023*  
