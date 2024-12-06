@@ -33,19 +33,16 @@ Work and Academic Experience
 
 - **Data Scientist**  
   *[Institute of Cancer Research (ICR)](https://www.icr.ac.uk/our-research/about-our-research/data-science-at-the-icr), London, United Kingdom | March 2024 – Present*  
-  - Collaborate with diverse research teams to design machine learning tools that integrate and analyse multi-modal data.    
+  - As part of the Data Science Team, I collaborate with research groups across the institute to provide data analysis expertise and co-develop research projects. This role involves designing and implementing machine learning tools for analysing diverse omics data and integrating multi-modal datasets   
 
 - **Mathematics Teacher for Middle Schoolers and High Schoolers**  
   *[École Alsacienne](https://www.ecole-alsacienne.org/), Paris, France | February 2023 – August 2023*  
-  - Taught mathematics to 8th and 10th-grade (4ème and 2nde) students at a prestigious private school.  
-  - Developed communication and public speaking skills through daily interactions and outreach initiatives.  
+  - Taught mathematics to year 4èmes and 2ndes (ages 13-15) at a prestigious private school. Participated in several outreach initiatives to make mathematics more accessible and engaging for younger audiences.
 
 - **Research Intern**  
   *Supervised by Isidro Cortés-Ciriano, [Cancer Genomics Lab](https://www.ebi.ac.uk/research/cortes-ciriano/), EMBL-EBI, Cambridge, United Kingdom | February 2022 – January 2023*  
-  - Designed two state-of-the-art methylation deconvolution algorithms leveraging supervised and unsupervised machine learning techniques.  
-  - Implemented these algorithms in Python as a user-friendly command-line interface.  
+  - Designed and implemented a suite of methylation deconvolution algorithms to elucidate the tumour microenvironment and denoise methylation data for potential clinical applications, including methylation-based tumour classification. 
 
 - **Research Intern**  
   *Supervised by Dirk Drasdo and Jules Dichamp, [SIMBIOTX Lab](https://team.inria.fr/simbiotx/), INRIA Paris-Saclay, Paris, France | April 2021 – September 2021*  
-  - Extended Master equation-based cellular proliferation models to study epidemic spread.  
-  - Developed Python-based simulations using the Gillespie algorithm to model stochastic processes.  
+  - Designed and implemented a simulation of a spatio-temporal stochastic model of COVID-19 spread in France.
