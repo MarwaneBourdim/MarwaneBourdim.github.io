@@ -5,7 +5,6 @@ permalink: /projects/
 author_profile: true
 ---
 
-blabla
 <div id="graph"></div>
 
 <script type="module">
@@ -13,34 +12,20 @@ blabla
 
   const data = {
     nodes: [
-      { id: "DeMethify", group: 1, url: "/demethify" },
-      { id: "Covid-19 ABM", group: 2, url: "/covid-19-abm" },
-      { id: "Ovarian Cancer Drug Resistance", group: 3, url: "/ovarian-cancer" },
-      { id: "Lineage Barcode Library", group: 4, url: "/lineage-barcode" },
-      { id: "Multi-modal Barcoding", group: 5, url: "/multi-modal-barcoding" },
-      { id: "Bioethics", group: 6, url: "/bioethics" },
+      { id: "Project 1", group: 1, url: "/project-1" },
+      { id: "Project 2", group: 2, url: "/project-2" },
+      { id: "Project 3", group: 3, url: "/project-3" },
+      { id: "Project 4", group: 4, url: "/project-4" },
     ],
     links: [
-      { source: "DeMethify", target: "Covid-19 ABM" },
-      { source: "DeMethify", target: "Ovarian Cancer Drug Resistance" },
-      { source: "DeMethify", target: "Lineage Barcode Library" },
-      { source: "DeMethify", target: "Multi-modal Barcoding" },
-      { source: "DeMethify", target: "Bioethics" },
-      { source: "Covid-19 ABM", target: "Ovarian Cancer Drug Resistance" },
-      { source: "Covid-19 ABM", target: "Lineage Barcode Library" },
-      { source: "Covid-19 ABM", target: "Multi-modal Barcoding" },
-      { source: "Covid-19 ABM", target: "Bioethics" },
-      { source: "Ovarian Cancer Drug Resistance", target: "Lineage Barcode Library" },
-      { source: "Ovarian Cancer Drug Resistance", target: "Multi-modal Barcoding" },
-      { source: "Ovarian Cancer Drug Resistance", target: "Bioethics" },
-      { source: "Lineage Barcode Library", target: "Multi-modal Barcoding" },
-      { source: "Lineage Barcode Library", target: "Bioethics" },
-      { source: "Multi-modal Barcoding", target: "Bioethics" },
+      { source: "Project 1", target: "Project 2" },
+      { source: "Project 2", target: "Project 3" },
+      { source: "Project 3", target: "Project 4" },
     ],
   };
 
-  const width = 1200;
-  const height = 800;
+  const width = 1200; // Wider canvas
+  const height = 800; // Taller canvas
 
   const svg = d3.select("#graph")
     .append("svg")
@@ -48,8 +33,8 @@ blabla
     .attr("height", height);
 
   const simulation = d3.forceSimulation(data.nodes)
-    .force("link", d3.forceLink(data.links).id(d => d.id).distance(150))
-    .force("charge", d3.forceManyBody().strength(-500))
+    .force("link", d3.forceLink(data.links).id(d => d.id).distance(200)) // Increased link distance
+    .force("charge", d3.forceManyBody().strength(-400)) // Increased repulsion
     .force("center", d3.forceCenter(width / 2, height / 2))
     .on("tick", ticked);
 
@@ -57,15 +42,15 @@ blabla
     .selectAll("line")
     .data(data.links)
     .join("line")
-    .attr("stroke", "#aaa")
-    .attr("stroke-width", 2);
+    .attr("stroke", "#999")
+    .attr("stroke-opacity", 0.6);
 
   const node = svg.append("g")
     .selectAll("circle")
     .data(data.nodes)
     .join("circle")
-    .attr("r", 15) // Increased node size
-    .attr("fill", (d, i) => d3.schemeTableau10[i % 10])
+    .attr("r", 10) // Larger nodes
+    .attr("fill", "steelblue")
     .call(d3.drag()
       .on("start", dragstarted)
       .on("drag", dragged)
@@ -75,12 +60,11 @@ blabla
     .selectAll("text")
     .data(data.nodes)
     .join("text")
-    .attr("dx", 20)
+    .attr("dx", 15) // Adjusted label position
     .attr("dy", ".35em")
     .text(d => d.id)
     .style("font-size", "14px")
-    .style("fill", "#333")
-    .style("pointer-events", "none");
+    .on("click", d => window.location = d.url);
 
   function ticked() {
     link
@@ -115,4 +99,3 @@ blabla
     event.subject.fy = null;
   }
 </script>
-
