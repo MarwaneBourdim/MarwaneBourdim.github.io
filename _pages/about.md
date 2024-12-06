@@ -27,7 +27,6 @@ Education
 - **Classe Préparatoire aux Grandes Écoles MPSI-MP**  
   *Lycée Jacques Decour, France | 2016–2018*  
 
-======  
 
 Work and Academic Experience  
 ======  
