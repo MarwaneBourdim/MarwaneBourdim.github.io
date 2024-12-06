@@ -19,7 +19,10 @@ author_profile: true
     ],
     links: [
       { source: "Project 1", target: "Project 2" },
+      { source: "Project 1", target: "Project 3" },
+      { source: "Project 1", target: "Project 4" },
       { source: "Project 2", target: "Project 3" },
+      { source: "Project 2", target: "Project 4" },
       { source: "Project 3", target: "Project 4" },
     ],
   };
@@ -98,3 +101,4 @@ author_profile: true
     event.subject.fy = null;
   }
 </script>
+
