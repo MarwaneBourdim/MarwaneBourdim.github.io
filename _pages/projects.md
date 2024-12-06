@@ -12,18 +12,29 @@ author_profile: true
 
   const data = {
     nodes: [
-      { id: "Project 1", group: 1, url: "/project-1" },
-      { id: "Project 2", group: 2, url: "/project-2" },
-      { id: "Project 3", group: 3, url: "/project-3" },
-      { id: "Project 4", group: 4, url: "/project-4" },
+      { id: "DeMethify", group: 1, url: "/demethify" },
+      { id: "Covid-19 ABM", group: 2, url: "/covid-19-abm" },
+      { id: "Lineage barcode library", group: 3, url: "/lineage-barcode-library" },
+      { id: "Ovarian cancer drug resistance", group: 4, url: "/ovarian-cancer-drug-resistance" },
+      { id: "Multi-modal barcoding", group: 5, url: "/multi-modal-barcoding" },
+      { id: "Bioethics", group: 6, url: "/bioethics" },
     ],
     links: [
-      { source: "Project 1", target: "Project 2" },
-      { source: "Project 1", target: "Project 3" },
-      { source: "Project 1", target: "Project 4" },
-      { source: "Project 2", target: "Project 3" },
-      { source: "Project 2", target: "Project 4" },
-      { source: "Project 3", target: "Project 4" },
+      { source: "DeMethify", target: "Covid-19 ABM" },
+      { source: "DeMethify", target: "Lineage barcode library" },
+      { source: "DeMethify", target: "Ovarian cancer drug resistance" },
+      { source: "DeMethify", target: "Multi-modal barcoding" },
+      { source: "DeMethify", target: "Bioethics" },
+      { source: "Covid-19 ABM", target: "Lineage barcode library" },
+      { source: "Covid-19 ABM", target: "Ovarian cancer drug resistance" },
+      { source: "Covid-19 ABM", target: "Multi-modal barcoding" },
+      { source: "Covid-19 ABM", target: "Bioethics" },
+      { source: "Lineage barcode library", target: "Ovarian cancer drug resistance" },
+      { source: "Lineage barcode library", target: "Multi-modal barcoding" },
+      { source: "Lineage barcode library", target: "Bioethics" },
+      { source: "Ovarian cancer drug resistance", target: "Multi-modal barcoding" },
+      { source: "Ovarian cancer drug resistance", target: "Bioethics" },
+      { source: "Multi-modal barcoding", target: "Bioethics" },
     ],
   };
 
@@ -36,7 +47,7 @@ author_profile: true
     .attr("height", height);
 
   const simulation = d3.forceSimulation(data.nodes)
-    .force("link", d3.forceLink(data.links).id(d => d.id).distance(200)) 
+    .force("link", d3.forceLink(data.links).id(d => d.id).distance(200))
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2))
     .on("tick", ticked);
